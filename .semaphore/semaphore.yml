@@ -26,6 +26,7 @@ blocks:
       jobs:
         - name: Run app
           commands:
+            - artifact pull app
             - chmod +x app
             - ./app
         - name: Lint
