@@ -15,7 +15,7 @@ blocks:
             - echo hello
       agent:
         machine:
-          type: e2-standard-2
+          type: f1-standard-2
           os_image: ubuntu2004
   - name: Tests
     task:
