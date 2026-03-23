@@ -16,7 +16,7 @@ blocks:
       agent:
         machine:
           type: e1-standard-2
-          os_image: ubuntu2404
+          os_image: ubuntu2004
   - name: Tests
     task:
       prologue:
