@@ -62,3 +62,4 @@ make all
 8. Examine the error and fix the pipeline
 
 Relevant docs: [How to create a Project](https://docs.semaphore.io/using-semaphore/projects#create-project)
+
