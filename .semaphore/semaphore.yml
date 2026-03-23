@@ -13,7 +13,7 @@ blocks:
             - checkout
             - make app
             - echo hello
-            - artifact push ./app
+            - artifact push workflow app
       agent:
         machine:
           type: e1-standard-2
@@ -26,7 +26,7 @@ blocks:
       jobs:
         - name: Run app
           commands:
-            - artifact pull app
+            - artifact pull workflow app
             - chmod +x app
             - ./app
         - name: Lint
